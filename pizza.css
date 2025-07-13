@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color:#fdf9ed;
+}
+nav{
+    background-color:  rgb(136, 14, 14);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-logo{
+    margin-left: 100px;
+}
+
+.main-logo img{
+    width: 180px;
+    position: relative;
+    top: 2px;
+}
+.nav-links{
+    margin-right: 100px;
+}
+
+.nav-link{
+    color: rgb(136, 14, 14);
+    background-color: #fdf9ed;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: unset;
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: smaller;
+}
+
+.product-forms{
+    background-color: rgb(136, 14, 14);
+    margin: 100px 100px 70px 100px;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.product-form{
+    border-radius: 10px;
+    background-color: #fdf9ed;
+    padding: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.381);
+}
+
+.product-form img{
+    width: 170px;
+}
+.product-form p{
+    text-align: center;
+}
